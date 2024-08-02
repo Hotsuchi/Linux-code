@@ -23,10 +23,19 @@ clear
 #    echo you are not vote.
 #fi
 ## add switch case statement
-read age
-case $age in 
-    a)ls;;
-    2)echo "number2";;
-    b)ls -al;;
-    *)echo "option not found";;
-esac
+#read age
+#case $age in 
+#    a)ls;;
+#    2)echo "number2";;
+#    b)ls -al;;
+#    *)echo "option not found";;
+#esac
+##add for loop
+#for i in 1 2 3 4
+#do echo $i
+#done
+##add range for loop
+for i in {1..10}
+do 
+    echo $i
+done
