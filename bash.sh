@@ -1,3 +1,4 @@
+
 #!/bin/bash
 clear
 ##bash file out put
@@ -35,7 +36,14 @@ clear
 #do echo $i
 #done
 ##add range for loop
-for i in {1..10}
-do 
+#for i in {1..10}
+#do 
+#    echo $i
+#done
+## add while loop
+i=0
+while [ $i -le 10 ]
+do
     echo $i
+    let i++
 done
