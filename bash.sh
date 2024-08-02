@@ -41,9 +41,16 @@ clear
 #    echo $i
 #done
 ## add while loop
-i=0
-while [ $i -le 10 ]
+#i=0
+#while [ $i -le 10 ]
+#do
+#    echo $i
+#    let i++
+#done
+## fetch file data in forloop
+echo "Please only file Path :"
+read x
+for i in $(cat $x)
 do
     echo $i
-    let i++
 done
